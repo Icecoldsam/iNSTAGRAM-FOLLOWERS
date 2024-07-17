@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecold Motivating Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Icecold Motivating Scores</h1>
+            <div class="language-selector">
+                <button id="en-button">English</button>
+                <button id="sn-button">Shona</button>
+                <button id="zu-button">Zulu</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="intro-container" class="container">
+            <p>Click the buttons below to generate a motivational quote or a Bible verse:</p>
+            <button id="generate-quote">Generate Motivational Quote</button>
+            <button id="generate-bible">Generate Bible Verse</button>
+            <div class="loading-container hide" id="loading-container">
+                <div class="loading-bar">
+                    <div class="bar"></div>
+                    <div class="percentage">0%</div>
+                </div>
+                <p>Loading...</p>
+            </div>
+        </div>
+
+        <div id="result-container" class="container hide">
+            <div id="ai-result"></div>
+            <button id="new-quote">New Quote</button>
+            <button id="new-bible">New Bible Verse</button>
+            <button id="back">Back to Generate</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Take a <a href="https://www.16personalities.com/free-personality-test" target="_blank" rel="noopener noreferrer">free personality test</a> to learn more about yourself.</p>
+            <a href="https://www.instagram.com/icecold_sam?igsh=MXV2ZnBzZG05MmcxZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
